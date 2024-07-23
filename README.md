@@ -1,6 +1,6 @@
-# Lab- export ZONE=
+# Lab- 
 
-
+export ZONE=
 
 export REGION=${ZONE::-2}
 gcloud config set compute/region $REGION
